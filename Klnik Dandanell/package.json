@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "packageManager": "npm@10.9.3",
+    "workspaces": [
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev",
+        "lint": "turbo run lint"
+    },
+    "devDependencies": {
+        "turbo": "latest"
+    }
+}
+
